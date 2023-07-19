@@ -7,4 +7,7 @@ Whatsapp have an official API and if you use this bot to send messages by yourse
 I won't take any responsibility if something happens to you.
 
 # How to Use
-You will need a file that 
+1° You will need to login in your whatsapp web in 
+2° You will need a file that looks like the one I attached, then you just need to fill it as you please
+
+﻿﻿
