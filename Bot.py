@@ -16,17 +16,17 @@ while len(nav.find_elements(By.ID, 'side')) < 1:
 time.sleep(2) 
 
 sheet = pd.read_excel("Envios.xlsx")
-display(sheet[['nome', 'mensagem', 'arquivo']])
+display(sheet[['names', 'messages', 'file']])
 
 
 for line in sheet.index:
   
-    name = sheet.loc[line, "nome"]
-    msg = sheet.loc[line, "mensagem"]
-    file = sheet.loc[line, "arquivo"]
-    phone_n = sheet.loc[line, "telefone"]
+    name = sheet.loc[line, "names"]
+    msg = sheet.loc[line, "messages"]
+    file = sheet.loc[line, "file"]
+    phone_n = sheet.loc[line, "phone_n"]
     
-    text = msg.replace("fulano", name) # "fulano" means someone or a random person
+    text = msg.replace("bro", name) 
     text = urllib.parse.quote(text)
 
    
